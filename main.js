@@ -30,8 +30,8 @@ form.addEventListener("submit", (e) => {
     input.value = ""
 
 
-    const removeBtn = li.querySelector(".remove");
-    removeBtn.addEventListener("click", () => {
+    const chekBtn = li.querySelector(".chek");
+    chekBtn.addEventListener("click", () => {
         moveDone(li);  
     });
 
